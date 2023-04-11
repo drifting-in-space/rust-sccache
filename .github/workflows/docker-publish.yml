@@ -1,10 +1,11 @@
-name: Docker
+name: Build and publish
 
 on:
   push:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
+  workflow_dispatch:
 
 env:
   REGISTRY: ghcr.io
