@@ -67,7 +67,7 @@ jobs:
         id: build-and-push
         uses: depot/build-push-action@v1
         with:
-          project: plane
+          project: 58j0517pw2
           context: .
           push: ${{ github.event_name != 'pull_request' }}
           tags: ${{ steps.meta.outputs.tags }}
